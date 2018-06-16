@@ -8,8 +8,6 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_bf0576e69c23_key -iv $encrypted_bf0576e69c23_iv
   -in etc/secrets -out ../secrets.tar -d
 - "(cd ../ && tar xvf secrets.tar)"
-- chmod 600 ../deploy
-- eval `ssh-agent -s` && ssh-add ../deploy
 - chmod 600 ../release.asc
 - gpg --import ../release.asc
 install:
