@@ -1,7 +1,7 @@
 require 'buildr/git_auto_version'
 require 'buildr/gpg'
 
-desc 'Anodoc: Annotations for documenting java code'
+desc 'javax.annotation: A minimal, J2CL compatible javax.annotation library'
 define 'javax.annotation' do
   project.group = 'org.realityforge.javax.annotation'
   compile.options.source = '1.8'
