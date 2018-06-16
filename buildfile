@@ -14,7 +14,7 @@ define 'javax.annotation' do
   pom.add_github_project('realityforge/javax.annotation')
   pom.add_developer('realityforge', 'Peter Donald')
 
-  package(:jar)
+  package(:jar).include(project._('src/main/java/javax'))
   package(:sources)
   package(:javadoc)
 
