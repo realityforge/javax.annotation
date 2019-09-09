@@ -1,7 +1,6 @@
 # Change Log
 
-### [v1.01.0](https://github.com/realityforge/javax.annotation/tree/v1.01.0) (2019-09-10)
-[Full Changelog](https://github.com/realityforge/javax.annotation/compare/v1.0.0...v1.01.0)
+### Unreleased
 
 * Remove deployment from TravisCI infrastructure as it is no longer feasible.
 * Add in GWT module `java.annotation.Annotation.gwt.xml`.
