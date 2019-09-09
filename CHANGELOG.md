@@ -1,5 +1,7 @@
 # Change Log
 
+### Unreleased
+
 ### [v1.0.1](https://github.com/realityforge/javax.annotation/tree/v1.0.1) (2019-09-10)
 [Full Changelog](https://github.com/realityforge/javax.annotation/compare/v1.0.0...v1.0.1)
 
