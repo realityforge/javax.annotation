@@ -1,6 +1,8 @@
 require 'buildr/git_auto_version'
 require 'buildr/gpg'
 
+Buildr::MavenCentral.define_publish_tasks(:profile_name => 'org.realityforge', :username => 'realityforge')
+
 desc 'javax.annotation: A minimal, J2CL compatible javax.annotation library'
 define 'javax.annotation' do
   project.group = 'org.realityforge.javax.annotation'
