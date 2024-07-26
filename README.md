@@ -17,7 +17,7 @@ The Maven dependency is:
 <dependency>
   <groupId>org.realityforge.javax.annotation</groupId>
   <artifactId>javax.annotation</artifactId>
-  <version>1.0.1</version>
+  <version>1.1.1</version>
 </dependency>
 ```
 
