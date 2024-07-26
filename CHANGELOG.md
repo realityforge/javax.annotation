@@ -2,6 +2,7 @@
 
 ### Unreleased
 
+* Add `@Target( { ElementType.METHOD, ElementType.PARAMETER, ElementType.FIELD } )` to `@Nonnull` and `@Nullable`
 * Remove custom codestyle and historic staging release process as the associated infrastructure no longer exists.
 
 ### [v1.0.1](https://github.com/realityforge/javax.annotation/tree/v1.0.1) (2019-09-10) · [Full Changelog](https://github.com/realityforge/javax.annotation/compare/v1.0.0...v1.0.1)
