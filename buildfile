@@ -19,6 +19,4 @@ define 'javax.annotation' do
   package(:jar).include(project._('src/main/java/javax'))
   package(:sources)
   package(:javadoc)
-
-  ipr.add_component_from_artifact(:idea_codestyle)
 end
